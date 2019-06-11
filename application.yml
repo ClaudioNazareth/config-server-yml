@@ -5,4 +5,4 @@ spring:
       - id: header_route
         uri: https://example.org
         predicates:
-        - Header=X-Request-Id2, \d+
+        - Header=X-Request-Id, \d+
